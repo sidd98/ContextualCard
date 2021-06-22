@@ -1,0 +1,27 @@
+.hc9-cards {
+  height: 195px;
+  overflow-x: scroll;
+  width: 100%;
+  margin-bottom: 15px;
+
+  > div {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    text-align: -webkit-center;
+  }
+}
+
+.hc9-wrapper {
+  height: inherit;
+  margin-left: 20px;
+  img {
+    height: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  height: inherit;
+}

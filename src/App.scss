@@ -1,0 +1,23 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.container {
+  background-color: #F7F6F3;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  position: relative;
+  padding: 24px 0;
+}
+
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 84px;
+}

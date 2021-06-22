@@ -1,0 +1,78 @@
+.hc3-cards {
+  overflow-x: scroll;
+  margin-bottom: 15px;
+  width: 100%;
+
+  > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+    text-align: -webkit-center;
+
+    .slide-sec {
+      display: flex;
+      flex-direction: column;
+      width: 122px;
+      justify-content: space-around;
+      background: white;
+      align-items: center;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      margin-left: 16%;
+
+      button {
+        width: 72px;
+        height: 59px;
+        background: #f7f6f3;
+        border-radius: 12px;
+        border: none;
+      }
+    }
+
+    .hc3-container {
+      display: flex;
+    }
+  }
+}
+
+.hc3-wrapper {
+  height: 350px;
+  width: 320px;
+  background-size: cover;
+
+  .hc3-content {
+    width: 260px;
+    height: 70px;
+    margin-top: 134px;
+    margin-left: 0px;
+
+    .title {
+      font-style: normal;
+      font-size: 1.8em;
+      line-height: 35px;
+    }
+
+    .desc {
+      font-size: 1em;
+      line-height: 18px;
+      color: white;
+    }
+
+    a.hc3-btn {
+      outline: none;
+      display: block;
+      width: 128px;
+      height: 42px;
+      border-radius: 6px;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+  }
+}
