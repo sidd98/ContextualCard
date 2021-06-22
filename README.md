@@ -1,5 +1,7 @@
 # Get started with the project
 
+- Only for Mobile View
+
 # Step to run the project
 
 - npm install (to install node modules)
