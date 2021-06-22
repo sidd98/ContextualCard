@@ -7,3 +7,6 @@
 - npm install (to install node modules)
 - npm run start (to start project)
 - npm run build (build the project)
+
+
+# Deployed URL - https://contextualcard.netlify.app/
